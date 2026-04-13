@@ -8,12 +8,11 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      steps:
-  - name: Step 1 - Checkout
-    uses: actions/checkout@v4
+      - name: Step 1 - Checkout
+        uses: actions/checkout@v4
 
-  - name: Step 2 - Echo
-    run: echo "Hello from Step 2"
+      - name: Step 2 - Echo
+        run: echo "Hello from Step 2"
 
-  - name: Step 3 - List files
-    run: ls -la
+      - name: Step 3 - List files
+        run: ls -la

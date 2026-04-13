@@ -17,3 +17,7 @@ jobs:
 
       - name: Step 3 - Use value
         run: echo "Value is ${{ steps.gen.outputs.num }}"
+
+      - name: Step 4 - Only if value is 5
+        if: steps.gen.outputs.num == '5'
+        run: echo "Condition matched"

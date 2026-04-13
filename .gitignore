@@ -1,0 +1,14 @@
+.env
+.env.*
+
+node_modules/
+__pycache__/
+
+.terraform/
+*.tfstate*
+
+.aws/
+
+*.log
+.vscode/
+.idea/
